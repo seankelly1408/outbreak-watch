@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+Allow: /api/cases
+Allow: /api/news
+Allow: /api/stats
+Disallow: /api/admin/
+Disallow: /.env
+Disallow: /node_modules/
+
+# Sitemaps
+Sitemap: https://outbreakwatch.com/sitemap.xml
+Sitemap: https://outbreakwatch.com/sitemap-news.xml
+
+# Crawl delay to be respectful
+Crawl-delay: 1
+
+# Specific rules for Googlebot
+User-agent: Googlebot
+Allow: /
+
+# Allow news indexing
+User-agent: Googlebot-News
+Allow: /api/news

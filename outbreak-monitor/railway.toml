@@ -1,0 +1,12 @@
+# Railway.app deployment configuration
+# Free tier: $5 credit/month (enough for this app)
+# Deploy: https://railway.app
+
+[build]
+# tells railway how to build the app
+builder = "nixpacks"
+
+[deploy]
+startCommand = "npm run build && node server.js"
+healthcheckPath = "/health"
+healthcheckTimeout = 100

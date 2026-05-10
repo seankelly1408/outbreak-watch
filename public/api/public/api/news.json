@@ -1,0 +1,58 @@
+[
+  {
+    "country": "Netherlands",
+    "date": "May 8, 2026",
+    "title": "Ship doctor in stable condition after testing positive",
+    "excerpt": "A ship doctor who developed symptoms on April 30 tested positive for Andes hantavirus on May 6",
+    "source": "Reuters",
+    "url": "https://reuters.com"
+  },
+  {
+    "country": "Germany",
+    "date": "May 2, 2026",
+    "title": "Woman dies aboard cruise ship, hantavirus confirmed",
+    "excerpt": "A 72-year-old German woman who developed fever died on May 2 aboard the MV Hondius",
+    "source": "DPA",
+    "url": "https://dpa.com"
+  },
+  {
+    "country": "United Kingdom",
+    "date": "May 7, 2026",
+    "title": "Two UK nationals confirm positive for hantavirus",
+    "excerpt": "British health authorities confirmed two UK nationals have tested positive for hantavirus",
+    "source": "BBC",
+    "url": "https://bbc.co.uk"
+  },
+  {
+    "country": "Switzerland",
+    "date": "May 5, 2026",
+    "title": "Swiss patient tests positive after disembarking",
+    "excerpt": "A man who disembarked in Saint Helena tested positive on May 5, now isolating at a Swiss hospital",
+    "source": "SWI",
+    "url": "https://swissinfo.ch"
+  },
+  {
+    "country": "United States",
+    "date": "May 8, 2026",
+    "title": "CDC monitors 7 people across five states",
+    "excerpt": "US health authorities are monitoring seven people across Arizona, California, Georgia, Texas, and Virginia",
+    "source": "CDC",
+    "url": "https://cdc.gov"
+  },
+  {
+    "country": "Spain",
+    "date": "May 6, 2026",
+    "title": "Spain approves ship arrival in Canary Islands",
+    "excerpt": "Spain approved the plan for the MV Hondius to dock in Tenerife, coordinating with the WHO",
+    "source": "El País",
+    "url": "https://elpais.es"
+  },
+  {
+    "country": "South Africa",
+    "date": "May 4, 2026",
+    "title": "Woman dies in Johannesburg hospital after ship exposure",
+    "excerpt": "A 69-year-old Dutch woman who went ashore at Saint Helena died on April 26 at a Johannesburg hospital",
+    "source": "SABC News",
+    "url": "https://sabc.co.za"
+  }
+]

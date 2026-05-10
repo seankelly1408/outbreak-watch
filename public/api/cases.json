@@ -1,0 +1,9 @@
+[
+  { "country": "Netherlands", "count": 2, "deaths": 1, "region": "Europe" },
+  { "country": "Germany", "count": 1, "deaths": 1, "region": "Europe" },
+  { "country": "United Kingdom", "count": 2, "deaths": 0, "region": "Europe" },
+  { "country": "Switzerland", "count": 1, "deaths": 0, "region": "Europe" },
+  { "country": "Spain", "count": 1, "deaths": 0, "region": "Europe" },
+  { "country": "United States", "count": 7, "deaths": 0, "region": "North America" },
+  { "country": "South Africa", "count": 1, "deaths": 1, "region": "Africa" }
+]

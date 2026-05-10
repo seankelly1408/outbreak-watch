@@ -11,20 +11,20 @@ function App() {
     fetchData();
   }, []);
 
-  const fetchData = async () => {
-    try {
-      const [casesRes, newsRes] = await Promise.all([
-        fetch('/api/cases'),
-        fetch('/api/news')
-      ]);
-      setCases(await casesRes.json());
-      setNews(await newsRes.json());
-    } catch (err) {
-      console.error('Error fetching data:', err);
-    } finally {
-      setLoading(false);
-    }
-  };
+const fetchData = async () => {
+  try {
+    const [casesRes, newsRes] = await Promise.all([
+      fetch('/api/cases.json'),
+      fetch('/api/news.json')
+    ]);
+    setCases(await casesRes.json());
+    setNews(await newsRes.json());
+  } catch (err) {
+    console.error('Error fetching data:', err);
+  } finally {
+    setLoading(false);
+  }
+};
 
   const totalCases = cases.reduce((sum, c) => sum + c.count, 0);
   const totalDeaths = cases.reduce((sum, c) => sum + c.deaths, 0);
